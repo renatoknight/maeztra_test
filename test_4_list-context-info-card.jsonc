@@ -1,0 +1,41 @@
+{
+    "flex-layout.row#home-info-slider": {
+        "title": "MZ | Info Slider",
+        "props": {
+          "fullWidth": false,
+          "paddingTop": {
+            "desktop": 5,
+            "tablet": 5,
+            "phone": 0
+          },
+          "paddingBottom": {
+            "desktop": 6,
+            "tablet": 6,
+            "phone": 0
+          },
+          "marginTop": {
+            "desktop": 0,
+            "tablet": 0,
+            "phone": 0
+          },
+          "marginBottom": {
+            "desktop": 0,
+            "tablet": 0,
+            "phone": 0
+          },
+          "colGap": {
+            "desktop": 0,
+            "tablet": 0,
+            "phone": 0
+          },
+          "borderWidth": 0,
+          "colSizing": "auto",
+          "preventHorizontalStretch": false,
+          "horizontalAlign": "left",
+          "preserveLayoutOnMobile": false
+        },
+        "children": ["seu componente aqui"]
+      }
+
+      //componentes novos
+}
