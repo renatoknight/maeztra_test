@@ -41,7 +41,7 @@
 
       "rich-text#slider-title": {
         "props": {
-          "text": "Test1"
+          "text": "Componente Teste"
         }
       },
 
@@ -59,7 +59,7 @@
         "children": ["info-card#1","info-card#2","info-card#3","info-card#4","info-card#5","info-card#6"]
       },
     
-      "in fo-card#1": {
+      "info-card#1": {
         "props": {
           "headline": "Titulo",
           "subhead": "Categoria",
