@@ -34,8 +34,55 @@
           "horizontalAlign": "left",
           "preserveLayoutOnMobile": false
         },
-        "children": ["seu componente aqui"]
-      }
+        "children": ["info-card#1","info-card#2","info-card#3","info-card#4","info-card#5","info-card#6" ]
+      },
 
-      //componentes novos
+      "info-card#1": {
+        "props": {
+          "headline": "Oferta Especial",
+          "subhead": "Economize 20% em todos os produtos!",
+          "imageUrl": "/arquivos/special-offer.jpg",
+          "linkTarget": "_self"
+        }
+      },
+      "info-card#2": {
+        "props": {
+          "headline": "Oferta Especial",
+          "subhead": "Economize 20% em todos os produtos!",
+          "imageUrl": "/arquivos/special-offer.jpg",
+          "linkTarget": "_self"
+        }
+      },
+      "info-card#3": {
+        "props": {
+          "headline": "Oferta Especial",
+          "subhead": "Economize 20% em todos os produtos!",
+          "imageUrl": "/arquivos/special-offer.jpg",
+          "linkTarget": "_self"
+        }
+      },
+      "info-card#4": {
+        "props": {
+          "headline": "Oferta Especial",
+          "subhead": "Economize 20% em todos os produtos!",
+          "imageUrl": "/arquivos/special-offer.jpg",
+          "linkTarget": "_self"
+        }
+      },
+      "info-card#5": {
+        "props": {
+          "headline": "Oferta Especial",
+          "subhead": "Economize 20% em todos os produtos!",
+          "imageUrl": "/arquivos/special-offer.jpg",
+          "linkTarget": "_self"
+        }
+      },
+      "info-card#6": {
+        "props": {
+          "headline": "Oferta Especial",
+          "subhead": "Economize 20% em todos os produtos!",
+          "imageUrl": "/arquivos/special-offer.jpg",
+          "linkTarget": "_self"
+        }
+      }
 }
