@@ -1,4 +1,4 @@
-{
+  {
     "vendor": "maeztra",
     "name": "store-theme",
     "version": "5.1.0",
@@ -15,27 +15,12 @@
     "dependencies": {
       "vtex.store": "2.x",
       "vtex.store-header": "2.x",
-      "vtex.store-components": "3.x"
+      "vtex.store-components": "3.x",
+      "vtex.slider-layout": "0.x",
+      "vtex.rich-text": "0.x"
     },
-    
     "peerDependencies": {
       "vtex.reviews-and-ratings": "3.x"
     },
-
-    "info-card": {
-      "props": {
-        "id": "info-card-example",
-        "isFullModeStyle": false,
-        "textPosition": "left",
-        "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-        "headline": "Clearance Sale",
-        "callToActionText": "DISCOVER",
-        "callToActionUrl": "/sale/d",
-        "blockClass": "info-card-example",
-        "textAlignment": "center"
-      }
-    },
-    
     "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
   }
-  
