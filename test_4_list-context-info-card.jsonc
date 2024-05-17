@@ -34,55 +34,79 @@
           "horizontalAlign": "left",
           "preserveLayoutOnMobile": false
         },
-        "children": ["info-card#1","info-card#2","info-card#3","info-card#4","info-card#5","info-card#6" ]
+        "children": ["rich-text#slider-title","slider-layout#slider-categories" ]
+
+
       },
 
-      "info-card#1": {
+      "rich-text#slider-title": {
         "props": {
-          "headline": "Oferta Especial",
-          "subhead": "Economize 20% em todos os produtos!",
+          "text": "Test1"
+        }
+      },
+
+      "slider-layout#slider-categories": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "blockClass": "carousel"
+        },
+        "children": ["info-card#1","info-card#2","info-card#3","info-card#4","info-card#5","info-card#6"]
+      },
+    
+      "in fo-card#1": {
+        "props": {
+          "headline": "Titulo",
+          "subhead": "Categoria",
           "imageUrl": "/arquivos/special-offer.jpg",
           "linkTarget": "_self"
         }
       },
       "info-card#2": {
         "props": {
-          "headline": "Oferta Especial",
-          "subhead": "Economize 20% em todos os produtos!",
+          "headline": "Titulo",
+          "subhead": "Categoria",
           "imageUrl": "/arquivos/special-offer.jpg",
           "linkTarget": "_self"
         }
       },
       "info-card#3": {
         "props": {
-          "headline": "Oferta Especial",
-          "subhead": "Economize 20% em todos os produtos!",
+          "headline": "Titulo",
+          "subhead": "Categoria",
           "imageUrl": "/arquivos/special-offer.jpg",
           "linkTarget": "_self"
         }
       },
       "info-card#4": {
         "props": {
-          "headline": "Oferta Especial",
-          "subhead": "Economize 20% em todos os produtos!",
+          "headline": "Titulo",
+          "subhead": "Categoria",
           "imageUrl": "/arquivos/special-offer.jpg",
           "linkTarget": "_self"
         }
       },
       "info-card#5": {
         "props": {
-          "headline": "Oferta Especial",
-          "subhead": "Economize 20% em todos os produtos!",
+          "headline": "Titulo",
+          "subhead": "Categoria",
           "imageUrl": "/arquivos/special-offer.jpg",
           "linkTarget": "_self"
         }
       },
       "info-card#6": {
         "props": {
-          "headline": "Oferta Especial",
-          "subhead": "Economize 20% em todos os produtos!",
+          "headline": "Titulo",
+          "subhead": "Categoria",
           "imageUrl": "/arquivos/special-offer.jpg",
           "linkTarget": "_self"
         }
       }
+
+
 }
